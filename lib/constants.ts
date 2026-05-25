@@ -1,0 +1,13 @@
+export const MAX_MEMORY_LENGTH = 5000;
+export const MAX_AGENT_REQUEST_LENGTH = 6000;
+export const MAX_MEMORY_TAGS = 20;
+export const MAX_MARKDOWN_FILE_BYTES = 2 * 1024 * 1024;
+export const MAX_AUDIO_FILE_BYTES = 25 * 1024 * 1024;
+export const DEFAULT_OPENAI_ANSWER_MODEL = "gpt-4o-mini";
+export const DEFAULT_OPENAI_TRANSCRIBE_MODEL = "gpt-4o-mini-transcribe";
+export const RECALL_MAX_RESULTS = 8;
+export const RECALL_TAG_FILTER_MAX_RESULTS = 24;
+export const INDEXING_MAX_ATTEMPTS = 24;
+export const INDEXING_DELAY_MS = 1000;
+export const BRAIN_GRAPH_LIMIT = 250;
+export const BRAIN_SUPER_NODES_LIMIT = 20;
